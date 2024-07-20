@@ -1,0 +1,21 @@
+// 3 var 
+    1 api url get from developer.twitter "https://api.quotable.io/random";
+    1 quote = dom get id 
+    1 author = dom get id
+
+    add ids to html dom
+
+// asynchronous func get random quote using argument url
+    declare var response variable =  to await fetch using param url  
+    declare var data = await json of response var above
+
+    inner HTML of quote is the content (shown in console.log(api url)) of the data var above
+    inner HTML of author is the author (shown in console.log(api url)) of the data var above
+
+// run this func with param of api url
+
+// 2nd func to tweet quote
+    to open a window(url of tweet intent found in developer.twitter  in quotes +  inner HTML of quote + "---- by " +  inner HTML of author + ,"webpage name, width and height of page")
+
+// add functions to buttone in html dom 
+    make sure get quote func has api url param
