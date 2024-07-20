@@ -1,0 +1,69 @@
+// 1 let user input get id of date
+// make max of userinput new date to iso string split "T" [0]
+
+// let result dom get id result
+
+// function to calculate age
+
+    let birth date = new date func using user input value as param 
+
+    let d1 = birth date().getDate();
+    let m1 = birth date().getMonth() + 1; bcos jan starts @ 0 
+    let y1 = birth date().getYear();
+
+    let d2 = today().getMonth() + 1; bcos jan starts @ 0 
+    let y2 = today().getYear();
+
+    let d3, m3, y3 difference btw birthday and today
+
+
+
+    // Difference in months calculation
+
+    If the current month (m2) is greater than or equal to the birth month (m1):
+
+        - Simply subtract the birth month from the current month: m3 = m2 - m1.
+
+    else the current month (m2) is less than the birth month (m1):
+
+        - Decrease the calculated year difference (y3) by 1, because we haven't yet reached the birth month in the current year.
+
+        - Calculate the month difference by considering a full year (12 months) minus the difference between the birth month and the current month: 
+
+        
+
+    // Difference in days calculation
+
+    If the current day (d2) is greater than or equal to the birth day (d1):
+
+        - Simply subtract the birth day from the current day: d3 = d2 - d1.
+
+    else the current day (d2) is less than the birth day (d1):
+
+        - Decrease the calculated month difference (m3) by 1 because we haven't yet reached the birth day in the current month.
+    
+        - Calculate the day difference by adding the number of days in the birth month (obtained from the getDaysInMonth function) to the current day, then subtract the birth day:
+
+    
+    // adjust for negative months
+
+    if the calculated month difference (m3) is less than 0:
+
+        - Set m3 to 11 because the year difference (y3) would have already been decremented in the previous step, effectively resetting the months to a previous year.
+
+        - Decrease the year difference (y3) by 1 to account for the adjusted months.
+
+
+
+    // Displays the calculated age in the "result" element.
+
+    results.innnerHTML = `You are ${d3<span>m3 y3} years old`
+
+    end of func
+
+
+// func get days in birth month
+
+has param of year and month
+
+return the new date using param of year and month and 0 days then use get date func
