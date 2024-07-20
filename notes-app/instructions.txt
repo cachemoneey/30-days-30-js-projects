@@ -1,0 +1,39 @@
+// func show notes 
+notes container inner html is get item local storage notes
+run func
+
+// func update storage
+local storage set item notes in notes  container inner html
+
+
+//add event listener to create button
+
+we are creating
+<p contenteditable="true" class="input-box">
+          <img src="images/delete.png" />
+        </p>
+
+var input box = dom create elemnt p
+var img = dom create elemnt img
+add class to var input box 
+set attribute contenteditable="true"
+<img src="images/delete.png" />
+add var input box to notes container and add img to input box
+
+//add event listener to notes container (E)
+
+if target is img
+remove the parent element
+update storage
+
+else if target is p notes =  dom querys input box
+for each note run func nt to on keyup = func update storage
+
+//add event listener to dom
+on keydown event run func
+if event key is enter
+execute command to insert line break
+prevent default to event
+
+
+
