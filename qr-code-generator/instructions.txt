@@ -1,0 +1,20 @@
+// 3 var all let
+    1 qr image get the id from img tag
+    1 qr text get the id from input
+    1 image box get the id from 2nd div
+    
+    add all to dom if not added
+
+// 1 function containing 1 if statement so when button is clicked it generates qr code
+
+- name function
+- if the value of the qr text has length more than 0 
+    qr image source is the "api url" + the value of the qr text;
+    add a class to image box of showing the image i.e. qr code;
+
+- else the value of the qr text has length less than 0 
+    add a class to qr text of error in quotes;
+    set a timeout of 1000 seconds using a () => {} as param
+        inside remove a class to qr text of error in quotes;
+
+add this func to DOM button
