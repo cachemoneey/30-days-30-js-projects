@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="music-player">
+        <nav>
+          <div class="nav-left">
+            <div class="circle"><i class="fa-solid fa-arrow-left"></i></div>
+          </div>
+          <div class="nav-right">
+            <div class="circle"><i class="fa-solid fa-bars"></i></div>
+          </div>
+        </nav>
+
+        <img src="media/468-thumbnail.png" class="song-img" />
+        <h1>I Wish I Knew</h1>
+        <p>Otis McDonald</p>
+
+        <audio id="song">
+          <source src="media/I Wish I Knew - Otis McDonald.mp3" />
+        </audio>
+
+        <input type="range" value="0" id="progress" />
+
+        <div class="controls">
+          <div class="control-btn"><i class="fa-solid fa-backward"></i></div>
+          <div class="control-btn" id="playPause" onclick="playPause()">
+            <i class="fa-solid fa-play" id="ctrlIcon"></i>
+          </div>
+          <div class="control-btn"><i class="fa-solid fa-forward"></i></div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

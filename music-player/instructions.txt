@@ -1,0 +1,74 @@
+// html
+
+link css to font awesome 
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+1 div container containing
+    1 div music player
+        nav 
+            div
+            top left circle for back with i class
+            div
+            top right circle for cheeseburger with i class
+        /nav
+
+        img
+        h1 - title
+        p - artist
+
+        audio
+            source
+        
+        input type = range value = 0 id = progress
+        div controls
+            div 1 backwards with i class
+            div 1 play with i class
+            div 1 forwards with i class
+
+</script> 
+
+***********************************************************************
+
+// script.js
+
+// 3 let var
+1 let get id progress
+1 let get id song
+1 let get id control icon and put this id in i class in play button
+
+// onload(ed) metadata for var song and assign to func(){
+    - maximum of progress var is duration of song var
+    - value of progress var is current time of song var
+
+}
+
+// 1 function to play n Pause containing 1 if statement
+    - if control icon has a class of "fa-pause"
+            pause the song;
+            remove the class "fa-pause" to control icon;
+            add the class "fa-play" to control icon;
+    - else the opposite
+            play the song;
+            add the class "fa-pause" to control icon;
+            remove the class "fa-play" to control icon;
+
+// 1 if statement
+    - if the song is playing
+        set an Interval to 500ms
+            value of progress var is current time of song var
+
+// when the progress is (on)changed by user = func(){
+    - play the song;
+    - current time of song var is value of progress var 
+    - add the class "fa-pause" to control icon;
+    - remove the class "fa-play" to control icon;
+}
+    
+
+
+
+
+
+
