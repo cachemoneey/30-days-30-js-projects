@@ -1,0 +1,35 @@
+// 3  let var for buttons
+
+    let success message is a string for successful submission;
+    let error message is a string for encountering error;
+    let invalid message is a string for invalid input;
+
+    use fontawesome.com to add icons to each var
+
+// 1 let var for toast notification box
+
+    toast notification box is getting the id from 2nd div in dom 
+
+// 1 func for toast notification 
+
+- name func and use argument msg 
+- create a new element let var toast to DOM as a div
+- add a class to the new element named toast
+- assign the element have inside the contents of the argument msg 
+- add this new element to the toast box var
+
+* run the toast notification in each button in html with each having param of individual message above
+
+    // 2 if statements with no else
+
+         1. if the string in argument msg includes 'error' 
+        add a class to the new element named 'error'
+
+        2. if the string in argument msg includes 'invalid'
+        add a class to the new element named 'invalid'
+
+    // 1 set time out func
+
+    - remove each toast notification every 5 seconds
+
+
