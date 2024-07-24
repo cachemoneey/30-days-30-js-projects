@@ -1,0 +1,24 @@
+// html
+
+- create 1 input box container
+- add 1 input with the type password, a placeholder and id
+- add the closed eye img and add an id
+
+// style css
+
+// script 
+
+// 2 let variables
+    1. let get the id of the input box
+    2. let get the id of the closed eye img
+
+// 1 func
+
+when the closed eye img icon variable is clicked = func   
+
+    if the password type is == password (alphanumeric) 
+        the password type is text;
+        add the open eye icon image using source;
+    else
+       the password type is password;
+        add the closed eye icon image using source; 
