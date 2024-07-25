@@ -1,0 +1,40 @@
+// html
+
+div container
+    div input-box
+        input with type id and placeholder
+        button with type img
+        p with id text <span> with id
+
+// style css
+
+// js
+
+3 var
+
+1 variable password get id for input
+1 variable message get id for p
+1 variable password strength get id for span
+
+Add an event listener to the variable password with the 'input' event {
+    if the length of the password value > 0
+        the display style of message variable is block
+    else 
+        the display style of message variable is none
+}
+
+    if the length of the password value < 4
+        password strength inner HTML should say weak
+        password border color style is red
+        message color style is red
+
+    else if the length of the password value >= 4 && < 8
+        password strength inner HTML should say medium
+        password border color style is yellow
+        message color style is yellow
+
+    else if the length of the password value >= 8
+        password strength inner HTML should say strong
+        password border color style is green
+        message color style is green
+
