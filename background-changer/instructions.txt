@@ -1,0 +1,38 @@
+// html
+
+div container
+    div image-box
+        img src transparent + width 100%
+
+        div image-wrap
+            img src original + id
+        /div
+
+        span id
+            img arrow + class
+        /span
+    /div
+/div
+
+script
+
+// style css
+
+// js
+
+4 variables
+
+var image box doc qs class
+var image wrap doc qs class
+var original image get id
+var ? get id for span id
+
+set the width style of the original image = offset width of image box + px;
+
+assign a new var left space to make image box offset left;
+
+when (on) mouse moves for image box, assign a function with a param of event that runs:
+    - a new var that is assigned (the x page position of event - left space var) + px;
+    - set the width style of the image wrap var = this new var above;
+    - set the left style of the ? var = this new var above;
+
