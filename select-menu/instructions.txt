@@ -1,0 +1,40 @@
+// html
+
+div hero
+    div class
+        div id 
+            p id select-text + text
+            img arrow + id
+        /div
+
+        ul id + class hide
+            li class
+                img 
+                p facebook
+            /li
+            
+            + 5 more times
+
+// style css
+
+// js
+
+5 var 
+
+var select field get id
+var select text get id
+var arrow icon field get id
+var list field get id
+
+var options get by class (is actually array)
+
+when the select field var is (on) clicked run a func
+    - change the class of var list to be hidden
+    - change the class of var arrow icon to be rotate
+
+for each option OF options
+    when the option is (on) clicked run a func
+        - change the inner text of var select text to be this text
+        - repeat above
+        - repeat above
+
