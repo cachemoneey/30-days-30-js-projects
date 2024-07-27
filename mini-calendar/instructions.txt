@@ -1,0 +1,55 @@
+// html
+
+div hero
+    div calendar
+        div left
+            p id date + text
+            p id day + text
+        /div
+        div right
+            p id month + text
+            p id year + text
+        /div
+    /div
+/div
+script
+
+// style css
+
+// js
+1. 
+
+4 var
+const date = doc get id 
+const day = doc get id 
+const month = doc get id 
+const year = doc get id 
+
+2. Create a const today with the new date func
+
+3. Create an array of all the days of the week as strings but start with Sunday
+
+4. Create an array of all the months of the year as strings 
+
+5.
+
+the inner HTML of date = (get date of today var and if < 10 add a 0 to date otherwise leave empty ) + get date of today var
+
+the inner HTML of day = get todays day using method and pass as index of weekdays array
+
+the inner HTML of month = get todays month using method and pass as index of months array
+
+the inner HTML of year = get full year of today
+
+
+
+
+
+
+
+
+
+
+
+
+
