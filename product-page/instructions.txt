@@ -1,0 +1,68 @@
+// html
+
+div container
+    div product
+        div gallery
+            img src + id
+            div controls
+                span class btn active
+                span class 
+                span class 
+            /div
+        /div
+        div details
+            h1 product
+            h2 price
+            h3 discount
+            p description
+
+            form
+                div size-select
+                    p size
+                    label for 
+                        input type + name + id
+                        span S
+                    /label
+
+                    x 4  (for and id are the same, name and p are the same)
+                /div
+
+                div color-select
+                    p color
+                    label for
+                        input type + name + id
+                        span class
+                    /label
+
+                    x 4 (for and id are the same, name and p are the same)
+
+                /div
+
+                div quantity-select
+                    p quantity
+                    input type + value
+                    
+                /div
+                button buy
+            /form
+
+
+// style css
+
+// js
+
+1. declare a var for product image get id img
+2. declare a var for btn get class (will actually be array)
+
+3. for first in btn array when (on) clicked assign a func
+    - assign the source of the product image var 
+
+    for every btn OF array
+        - remove the active class 
+    add an active class to this button
+
+4. repeat for second button
+
+5. repeat for third button
+
+
