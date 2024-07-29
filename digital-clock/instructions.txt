@@ -1,0 +1,35 @@
+// html 
+
+div hero
+    div container
+        div clock
+            span id 00
+            span :
+            span id 00
+            span :
+            span id 00
+
+// style css
+
+// js
+
+1. declare a flex var for:
+
+hours
+minutes
+seconds
+
+get id for all
+
+
+2. declare a flex var for current time using in built js
+
+3. for all vars assign the inner HTML as the current time var with method to get hours/mins/seconds
+
+4. place steps 2 and 3 in a func that executes code at fixed time interval (update every second)
+
+5. using the ternary operators (if conditions) make sure the inner html of hours, minutes, seconds 
+    - display 0 if a single digit
+    - else leave as empty string
+    - concatenate with the current time var with method to get hours/mins/seconds to ensure not just empty string
+
