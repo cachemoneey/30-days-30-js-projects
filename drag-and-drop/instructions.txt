@@ -1,0 +1,37 @@
+// html 
+
+div container
+    div id left
+        div class + draggable
+        img src + text
+        /div
+
+        x4
+
+        /div
+        div right
+
+    script
+
+// style css
+
+// js
+
+1. 3 var:
+    -  declare a flex var for all item in list get class
+    -  declare a flex var for left box get id
+    -  declare a flex var for right box get id
+
+2. create a for loop that runs for each list OF lists 
+     3. when a list item has an event of "dragstart" --> run a func w event param to
+        declare a flex var and assign the event target
+
+        4. when the right box var has an event of "dragover" --> run a func w event param to
+            prevent the default of event
+        
+        5. when the right box var has an event of "drop" --> run a func w event param to
+            add the above flex var to the parent var right box
+            flex var = null
+
+        6. repeat steps 4 and 5 but for left box
+        
